@@ -1,11 +1,13 @@
-package com.sungjun.news;
+package com.sungjun.news.service;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class NewsService {
 	public Map<String, Object> getSisaRankingNews() {
 		return new HashMap<String, Object>();

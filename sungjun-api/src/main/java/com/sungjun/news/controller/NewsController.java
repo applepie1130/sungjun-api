@@ -1,4 +1,4 @@
-package com.sungjun.news;
+package com.sungjun.news.controller;
 
 import java.util.Map;
 
@@ -7,6 +7,8 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.sungjun.news.service.NewsService;
 
 @RestController
 @RequestMapping("/api/news/")
